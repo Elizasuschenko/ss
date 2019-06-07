@@ -1,0 +1,138 @@
+.our_team-block {
+  height: 680px;
+}
+
+.our_team-container:before {
+  width: 100%;
+  height: 500px;
+  content: "";
+  background-color: #f9f9f9;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  right: 1050px;
+  bottom: 0;
+}
+
+.our_team-container {
+  padding-left: 170px;
+  display: flex;
+  position: relative;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.our_team-text{
+  top: 50px;
+  position: relative;
+}
+.number_block-our_team {
+  font-size: 20px;
+  font-weight: 800;
+}
+.main_title-our_team {
+  font-size: 50px;
+  width: 250px;
+  font-weight: 800;
+}
+.subtitle-our_team {
+  font-size: 12px;
+  width: 360px;
+  margin: 0;
+  font-weight: 400;
+}
+.our_team-slider {
+  height: 100%;
+  width: 705px;
+}
+
+.slid-window{
+  width: 705px;
+  height: 100%;
+  position: relative;
+}
+
+.main-photo {
+  width: 435px;
+  height: 645px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main-photo img {
+  height: 100%;
+}
+
+.subphoto {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+}
+
+.subphoto-block {
+  width: 287px;
+  height: 437px;
+}
+
+.profecion {
+  font-size: 11px;
+  color: #a6a6a6;
+  margin-left: 70px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.name_person {
+  margin-top: 12px;
+  font-size: 21px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  margin-left: 70px;
+}
+.line_slider{
+  width: 95px;
+  height: 1px;
+  margin-left: 23px;
+  margin-bottom: 47px;
+  -webkit-transform: rotate(90deg) translateX(48px);
+  -moz-transform: rotate(90deg) translateX(48px);
+  -ms-transform: rotate(90deg) translateX(48px);
+  -o-transform: rotate(90deg) translateX(48px) ;
+  transform: rotate(90deg) translateX(48px);
+  display: block;
+  background-color: #8e8e8e;
+}
+.next_slider{
+  bottom: 0;
+  position: absolute;
+  background-color: black;
+  right: 0;
+  width: 185px;
+  border: none;
+  height: 60px;
+  cursor: pointer;
+  font-size: 11px;
+  color: #a6a6a6;
+}
+.number_slider{
+  position: absolute;
+  top: 60px;
+  left: 0px;
+}
+.main_number{
+  font-size: 48px;
+  color: black;
+  font-weight: 700;
+}
+.number_all{
+  font-size: 27px;
+  font-weight: 700;
+  display: inline-block;
+  color: #a6a6a6;
+  -webkit-transform: translateY(9px);
+  -moz-transform: translateY(9px);
+  -ms-transform: translateY(9px);
+  -o-transform: translateY(9px);
+  transform: translateY(9px);
+}

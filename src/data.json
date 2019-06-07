@@ -1,0 +1,161 @@
+{
+  "data": {
+    "blocks": {
+      "mainBlock": {
+        "link": "#mainBlock",
+        "class": "main_block",
+        "name": "О нас",
+        "number": "01.",
+        "title": "Студия дизайна и веб-разработки",
+        "subtitle": "Мы помогаем компаниям обрести целостный образ, чтобы они достойно презентовали себя на рынке",
+        "instagramText": "Подпишитесь на наш красивый ",
+        "instagramSpan": "nstagram",
+        "instagramLink": "instagram.com",
+        "instagramIcon": "fa fa-instagram",
+        "line": "Упакуйте ваш бизнес вместе с нами "
+      },
+      "ourTeam": {
+        "link": "#ourTeam",
+        "class": "our_team-block",
+        "name": "Команда",
+        "number": "02.",
+        "title": "Наша команда",
+        "subtitle": "Мы — небольшая, но сильная команда дизайнеров, работаем в сфере дизайна с 2010 года.",
+        "buttonNext": "Посмотреть еще  →",
+        "team": [
+          {
+            "number": "01",
+            "name": "Каменок Яна",
+            "profession": "Дизайнер и котик.",
+            "photo": "./img/subphoto.svg",
+            "subphoto": "img/photo.svg"
+          },
+          {
+            "number": "01",
+            "name": "Каменок Яна",
+            "profession": "Дизайнер и котик.",
+            "photo": "./img/subphoto.svg",
+            "subphoto": "img/photo.svg"
+          },
+          {
+            "number": "01",
+            "name": "Каменок Яна",
+            "profession": "Дизайнер и котик.",
+            "photo": "./img/subphoto.svg",
+            "subphoto": "img/photo.svg"
+          },
+          {
+            "number": "01",
+            "name": "Каменок Яна",
+            "profession": "Дизайнер и котик.",
+            "photo": "./img/subphoto.svg",
+            "subphoto": "img/photo.svg"
+          },
+          {
+            "number": "01",
+            "name": "Каменок Яна",
+            "profession": "Дизайнер и котик.",
+            "photo": "./img/subphoto.svg",
+            "subphoto": "img/photo.svg"
+          },
+          {
+            "number": "01",
+            "name": "Каменок Яна",
+            "profession": "Дизайнер и котик.",
+            "photo": "./img/subphoto.svg",
+            "subphoto": "img/photo.svg"
+          }
+        ]
+      },
+      "portfolio": {
+        "class": "portfolio-block",
+        "link": "#portfolio",
+        "name": "Портфолио",
+        "number": "03.",
+        "title": "Портфолио",
+        "subtitle": ">Мы делали продукты для Mastercard, Wargaming, Alfa Bank и другич менее крупных компаниий.",
+        "works": {
+          "item": {
+            "name": "aaa"
+          },
+          "item1": "",
+          "item2": "",
+          "item3": "",
+          "item4": "",
+          "item5": ""
+        }
+      },
+      "services": {
+        "class": "services_block",
+        "link": "#services",
+        "name": "Услуги",
+        "number": "04.",
+        "title": "Услуги",
+        "subtitle": "Мы делали продукты для Mastercard, Wargaming, Alfa Bank и другим менее крупных компаниий." ,
+        "opacitytitile": "Услуги",
+        "item": [
+          {
+            "title": "Упаковка «Под ключ»",
+            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
+            "img": "",
+            "price": ""
+          },
+          {
+            "title": "Упаковка «Под ключ»",
+            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
+            "img": "",
+            "price": ""
+          },
+          {
+            "title": "Упаковка «Под ключ»",
+            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
+            "img": "",
+            "price": ""
+          },
+          {
+            "title": "Упаковка «Под ключ»",
+            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
+            "img": "",
+            "price": ""
+          },
+          {
+            "title": "Упаковка «Под ключ»",
+            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
+            "img": "",
+            "price": ""
+          }
+        ],
+        "feedback": {
+          "title": "Готовы работать?",
+          "subtitle": "Напишите нам свои контактные данные и наш менеджер свяжется с вами в ближайшее время.",
+          "button": "Связаться с нами  →"
+        }
+      },
+      "contact": {
+        "class": "content_block",
+        "link": "#contact",
+        "name": "Контакты",
+        "number": "05.",
+        "title": "Контакты",
+        "items": [
+          {
+            "icon": "",
+            "content": ""
+          },
+          {
+            "icon": "",
+            "content": ""
+          },
+          {
+            "icon": "",
+            "content": ""
+          },
+          {
+            "icon": "",
+            "content": ""
+          }
+        ]
+      }
+    }
+  }
+}
