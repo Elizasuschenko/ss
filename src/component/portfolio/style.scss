@@ -53,17 +53,18 @@
   font-size: 12px;
   font-weight: 400;
 }
-.portfolio-item:nth-of-type(1) { grid-area: header; }
-.portfolio-item:nth-of-type(2) { grid-area: menu; }
-.portfolio-item:nth-of-type(3) { grid-area: main; }
-.portfolio-item:nth-of-type(4) { grid-area: right; }
-.portfolio-item:nth-of-type(5) { grid-area: footer; }
-.portfolio-item:nth-of-type(6) { grid-area: footer1; }
+.portfolio-item:nth-of-type(1) { grid-area: item1; }
+.portfolio-item:nth-of-type(2) { grid-area: item2; }
+.portfolio-item:nth-of-type(3) { grid-area: item3; }
+.portfolio-item:nth-of-type(4) { grid-area: item4; }
+.portfolio-item:nth-of-type(5) { grid-area: item5; }
+.portfolio-item:nth-of-type(6) { grid-area: item6; }
+.portfolio-item:nth-of-type(7) { grid-area: item7; }
 .grid-container {
   display: grid;
   grid-template-areas:
-          'header menu main main'
-          'right menu  footer footer1';
+          'item1 item2 item3 item3'
+          'item4 item2  item5 item6';
   grid-gap: 20px;
   padding: 10px;
 }
@@ -107,7 +108,7 @@
   }
   .grid-container{
     padding: 0;
-    grid-template-areas: 'header' 'menu' 'main''right' 'footer' 'footer1';
+    grid-template-areas: 'item1' 'item2' 'item3''item4' 'item5' 'item6';
   }
   .grid-container > div{
     max-width: 350px;
@@ -123,11 +124,8 @@
   }
 }
 @media(min-width: 1024px) and (max-width: 1280px){
-  .portfolio-item:nth-of-type(7){
-    grid-area: footer2;
-  }
   .grid-container{
-    grid-template-areas: 'header main main' 'right footer footer1' 'menu footer footer2';
+    grid-template-areas: 'item1 item2 item2' 'item3 item4 item5' 'item6 item4 item7';
   }
 }
 @media (min-width: 768px) and (max-width: 1024px){
@@ -147,10 +145,10 @@
     font-size: 11px;
   }
   .portfolio-item:nth-of-type(7){
-    grid-area: footer2;
+    grid-area: item7;
   }
   .grid-container{
-    grid-template-areas: 'header main main' 'right footer footer1' 'menu footer footer2';
+    grid-template-areas: 'item1 item2 item2' 'item3 item4 item5' 'item6 item4 item7';
   }
   .grid-container > div{
     min-height: 215px;
