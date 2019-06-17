@@ -6,25 +6,81 @@ class LinksNavigation extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            menuBlocks: '',
             infoTop: '',
             add: true
         };
-        this.menuList = this.menuList.bind(this);
         this.info = this.info.bind(this);
+        this.menuList = this.menuList.bind(this);
         this.colorLink = this.colorLink.bind(this);
-        this.add = this.add.bind(this);
+        this.active = this.active.bind(this);
     }
-    add(){
-        if(this.state.add === true){
-            setTimeout(()=>{
-                let menuArr = document.querySelectorAll(".column_link");
-                menuArr[0].classList.add('active')
-            }, 100)
-            return this.setState({add: false})
+    menuList() {
+        const items = this.state.infoTop;
+        let itemArr = [];
+        for (let key in items) {
+            if (items[key].number === undefined) {
+                continue
+            }
+
+            else {
+                let itemAeeChild = [];
+                itemAeeChild.number = items[key].number;
+                itemAeeChild.link = items[key].link;
+                itemAeeChild.className = items[key].class
+                itemArr.push(itemAeeChild)
+            }
         }
+        return (
+            <React.Fragment> {itemArr.map((item) => (
+                    <li><a className={item.className} href={item.link}>{item.number}</a>
+                    </li>
+                )
+            )
+            } </React.Fragment>)
 
-        return false
+    }
+    active(){
+        let element = this.state.infoTop.slice();
+        for(let i = 0; i < element.length; i++){
+            if(element[i].class === 'column_link active'){
 
+            }
+        }
+    }
+    colorLink() {
+        let vertex = document.documentElement.scrollTop;
+        let old = 0;
+        let next = 0;
+        let array =  this.state.infoTop.slice();
+        let menuArr = document.querySelectorAll(".column_link");
+        for (let j = 0; j < array.length; j++) {
+            array[j].class = 'column_link'
+        }
+        for (let i = 0; i < array.length; i++) {
+            if (i + 1 >= array.length) {
+                return false
+            }
+            next = array[i + 1].top;
+            if (vertex >= old && vertex < next - (document.documentElement.clientHeight * 0.3)) {
+                for (let j = 0; j < menuArr.length; j++) {
+                    let href = menuArr[j].getAttribute('href');
+                    if (href === array[i].name) {
+                        array[i].class = 'column_link active';
+                        console.log(array)
+                        break
+                    }
+                }
+                old = next;
+                break
+            }
+            else if (window.pageYOffset > array[array.length - 1].top - 300) {
+                array[array.length - 1].class = 'column_link active'
+                break
+            }
+            console.log(this.state.infoTop)
+        }
+        return this.setState({infoTop: array})
     }
     info() {
 
@@ -35,82 +91,23 @@ class LinksNavigation extends React.Component {
             let object = {};
             object.top = block.offsetTop;
             object.name = mainArr[key].link;
+            object.link = mainArr[key].link;
+            object.number = mainArr[key].number;
+            object.class = 'column_link ';
             items.push(object);
         }
-
-        return this.setState({infoTop: items});
-    }
-
-    menuList() {
-        const items = this.props.contentMenu;
-        let itemArr = [];
-
-        for (let key in items) {
-            if (items[key].number === undefined) {
-                continue
-            }
-
-            else {
-                let itemAeeChild = [];
-                itemAeeChild.number = items[key].number;
-                itemAeeChild.link = items[key].link;
-                itemArr.push(itemAeeChild)
-            }
-
+        let array = items.slice();
+        if (this.state.add === true) {
+            array[0].class = 'column_link active';
         }
-
-        return (
-            <React.Fragment> {itemArr.map((item) => (
-
-                    <li><a className="column_link" href={item.link}>{item.number}</a>
-                    </li>
-                )
-            )
-            } </React.Fragment>)
-
+        console.log(array)
+        return this.setState({infoTop: array, add: false});
     }
-
-    colorLink() {
-        this.info();
-        let vertex = document.documentElement.scrollTop;
-        let old = 0;
-        let next = 0;
-        let menuArr = document.querySelectorAll(".column_link");
-        for (let j = 0; j < menuArr.length; j++) {
-            menuArr[j].classList.remove('active');
-        }
-        for (let i = 0; i < this.state.infoTop.length; i++) {
-            if (i + 1 >= this.state.infoTop.length) {
-                return false
-            }
-            next = this.state.infoTop[i + 1].top;
-            if (vertex >= old && vertex < next - (document.documentElement.clientHeight * 0.3)) {
-                for (let j = 0; j < menuArr.length; j++) {
-                    menuArr[j].classList.remove('active');
-                    let href = menuArr[j].getAttribute('href');
-                    if (href === this.state.infoTop[i].name) {
-                        menuArr[j].classList.add('active');
-                        console.log(this.state.infoTop)
-                        break
-                    }
-                }
-                old = next;
-                break
-            }
-            else if(window.pageYOffset > this.state.infoTop[this.state.infoTop.length - 1].top- 300){
-                menuArr[menuArr.length-1].classList.add('active')
-                break
-            }
-
-        }
-
-    }
-
     render() {
-        this.add();
-        document.onload = this.info;
-        window.onscroll = this.colorLink;
+        window.addEventListener('scroll', this.colorLink)
+        window.addEventListener('load', this.info)
         return (
+            <React.Fragment>
             <nav>
                 <ul className="menu_column">
                     {this.menuList()}
@@ -118,8 +115,10 @@ class LinksNavigation extends React.Component {
                 </ul>
 
             </nav>
+            </React.Fragment>
         )
     }
+
 
 }
 

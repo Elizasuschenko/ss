@@ -1,9 +1,5 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-.fa {
-  font-family: fontawesome !important;
-}
 .main_block{
-  background-image: url(./img/background-main.svg);
+  background-image: url(./img/background-main.png);
   height: 100vh;
   background-size: cover;
   min-height: 645px;
@@ -50,8 +46,8 @@ header{
   border: none;
   background-color: transparent;
 }
-i.fa{
-  font-size: 15px;
+svg{
+  font-size: 18px;
   color: white
 }
 .main-content{
@@ -122,7 +118,7 @@ i.fa{
   content: "";
 }
 .main-block-navigation{
-  width: 660px;
+  width: 682px;
   display: flex;
   position: absolute;
   right: 0;
@@ -180,3 +176,87 @@ i.fa{
   font-weight: 800;
   font-size: 23px;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .main_container{
+    padding: 15px 15px 15px 45px;
+  }
+  .main_block{
+    min-height: 365px;
+    height: 365px;
+  }
+  .main-content{
+    padding-left: 0;
+  }
+  .navigation{
+    display: none;
+  }
+  .main-block-navigation{
+    display: none;
+  }
+  .instagram{
+    display: none;
+  }
+  .line{
+    display: none;
+  }
+  .main_title{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .number_block_main{
+    font-size: 14px;
+  }
+  .subtitle{
+    width: 100%;
+    font-size: 12px;
+    max-width: 440px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+  .navigation{
+    width: 720px;
+  }
+  .instagram{
+    left: -30px;
+  }
+  .instagram_link{
+    font-size: 13px;
+  }
+  .line{
+    font-size: 13px;
+  }
+  .main_title{
+    font-size: 45px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav{
+    width: 400px;
+  }
+  .navigation{
+    width: 500px;
+  }
+  .nav li a{
+    font-size: 13px;
+  }
+  .instagram_link span{
+    display: none;
+  }
+  .fa-instagram{
+    margin-right: 0;
+  }
+  .main_title{
+    max-width: 300px;
+    font-size: 30px;
+  }
+  .subtitle{
+    font-size: 12px;
+  }
+  .line{
+    font-size: 12px;
+  }
+}
+

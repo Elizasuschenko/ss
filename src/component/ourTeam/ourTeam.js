@@ -7,11 +7,13 @@ class OurTeam extends React.Component {
     constructor(props) {
         super(props);
         this.next = this.next.bind(this);
+        this.sliderBlocks = this.sliderBlocks.bind(this);
     }
     next() {
         this.slider.slickNext();
     }
-    render() {
+    sliderBlocks() {
+        const itemArr = this.props.content.team.slice();
         const settings = {
             dots: false,
             fade: true,
@@ -22,70 +24,41 @@ class OurTeam extends React.Component {
             slidesToScroll: 1
         };
         return (
+            <Slider {...settings} ref={c => (this.slider = c)} className="our_team-slider">  {itemArr.map((item) => (
+                <div className="slid-window">
+                    <div className="main-photo">
+                        <img src={item.subphoto} alt=""/>
+                        <button className="next_slider" onClick={this.next}>{this.props.content.buttonNext}</button>
+                    </div>
+                    <div className="subphoto">
+                        <h4 className="profecion">{item.profession}</h4>
+                        <h3 className="name_person">{item.name}</h3>
+                        <span className="line_slider"></span>
+                        <div className="subphoto-block">
+                            <img src={item.photo} alt=""/>
+                        </div>
+                    </div>
+                    <div className="number_slider">
+                        <span className="main_number">{item.number}</span>
+                        <span className="number_all">/{itemArr.length}</span>
+                    </div>
+                </div>
+                )
+            )
+            } </Slider>)
+
+    }
+    render() {
+
+        return (
             <section className="our_team-block">
                 <div className="our_team-container container">
                     <div className="our_team-text">
-                        <span className="number_block-our_team">02.</span>
-                        <h1 className="main_title-our_team">Наша команда</h1>
-                        <h2 className="subtitle-our_team">Мы — небольшая, но сильная команда дизайнеров, работаем в
-                            сфере дизайна с 2010 года.</h2>
+                        <span className="number_block-our_team">{this.props.content.number}</span>
+                        <h1 className="main_title-our_team">{this.props.content.title}</h1>
+                        <h2 className="subtitle-our_team">{this.props.content.subtitle}</h2>
                     </div>
-                    <Slider {...settings} ref={c => (this.slider = c)} className="our_team-slider">
-                        <div className="slid-window" key={1}>
-                            <div className="main-photo">
-                                <img src="img/photo.svg" alt=""/>
-                                <button className="next_slider" onClick={this.next}>Посмотреть еще →</button>
-                            </div>
-                            <div className="subphoto">
-                                <h4 className="profecion">Дизайнер и котик.</h4>
-                                <h3 className="name_person">Каменок Яна</h3>
-                                <span className="line_slider"></span>
-                                <div className="subphoto-block">
-                                    <img src="./img/subphoto.svg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="number_slider">
-                                <span className="main_number">1</span>
-                                <span className="number_all">/09</span>
-                            </div>
-                        </div>
-                        <div className="slid-window" key={2}>
-                            <div className="main-photo">
-                                <img src="img/photo.svg" alt=""/>
-                                <button className="next_slider" onClick={this.next}>Посмотреть еще →</button>
-                            </div>
-                            <div className="subphoto">
-                                <h4 className="profecion">Дизайнер и котик.</h4>
-                                <h3 className="name_person">Каменок Яна</h3>
-                                <span className="line_slider"></span>
-                                <div className="subphoto-block">
-                                    <img src="./img/subphoto.svg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="number_slider">
-                                <span className="main_number">2</span>
-                                <span className="number_all">/09</span>
-                            </div>
-                        </div>
-                        <div className="slid-window" key={3}>
-                            <div className="main-photo">
-                                <img src="img/photo.svg" alt=""/>
-                                <button className="next_slider" onClick={this.next}>Посмотреть еще →</button>
-                            </div>
-                            <div className="subphoto">
-                                <h4 className="profecion">Дизайнер и котик.</h4>
-                                <h3 className="name_person">Каменок Яна</h3>
-                                <span className="line_slider"></span>
-                                <div className="subphoto-block">
-                                    <img src="./img/subphoto.svg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="number_slider">
-                                <span className="main_number">3</span>
-                                <span className="number_all">/09</span>
-                            </div>
-                        </div>
-                    </Slider>
+                        {this.sliderBlocks()}
                 </div>
             </section>
         )

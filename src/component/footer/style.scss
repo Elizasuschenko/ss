@@ -1,5 +1,20 @@
+i.fa{
+  color:black;
+}
 footer{
   padding: 100px 0 125px;
+}
+
+.contacts-item{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 12px;
+}
+.contacts-item svg{
+  width: 16px !important;
+  margin-right: 10px;
+   color: black;
 }
 .footer-number{
   font-size: 20px;
@@ -13,4 +28,23 @@ footer{
 }
 .footer_container{
   padding-left: 454px;
+}
+@media(min-width: 320px) and (max-width: 767px){
+  footer{
+    padding: 15px 15px 50px;
+  }
+  .footer_container{
+    padding-left: 30px;
+  }
+  .footer-title{
+    font-size: 25px;
+  }
+}
+@media(min-width: 768px) and (max-width: 1024px){
+  .footer_container{
+    padding-left: 350px;
+  }
+  .our_team-slider{
+    width: 425px;
+  }
 }

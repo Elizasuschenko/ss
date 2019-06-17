@@ -9,9 +9,9 @@
         "title": "Студия дизайна и веб-разработки",
         "subtitle": "Мы помогаем компаниям обрести целостный образ, чтобы они достойно презентовали себя на рынке",
         "instagramText": "Подпишитесь на наш красивый ",
-        "instagramSpan": "nstagram",
+        "instagramSpan": "instagram",
         "instagramLink": "instagram.com",
-        "instagramIcon": "fa fa-instagram",
+        "instagramIcon": "fab fa-instagram",
         "line": "Упакуйте ваш бизнес вместе с нами "
       },
       "ourTeam": {
@@ -31,35 +31,35 @@
             "subphoto": "img/photo.svg"
           },
           {
-            "number": "01",
+            "number": "02",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
             "photo": "./img/subphoto.svg",
             "subphoto": "img/photo.svg"
           },
           {
-            "number": "01",
+            "number": "03",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
             "photo": "./img/subphoto.svg",
             "subphoto": "img/photo.svg"
           },
           {
-            "number": "01",
+            "number": "04",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
             "photo": "./img/subphoto.svg",
             "subphoto": "img/photo.svg"
           },
           {
-            "number": "01",
+            "number": "05",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
             "photo": "./img/subphoto.svg",
             "subphoto": "img/photo.svg"
           },
           {
-            "number": "01",
+            "number": "06",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
             "photo": "./img/subphoto.svg",
@@ -76,13 +76,32 @@
         "subtitle": ">Мы делали продукты для Mastercard, Wargaming, Alfa Bank и другич менее крупных компаниий.",
         "works": {
           "item": {
-            "name": "aaa"
+            "url": "aaa",
+            "className": "all logo"
           },
-          "item1": "",
-          "item2": "",
-          "item3": "",
-          "item4": "",
-          "item5": ""
+          "item1": {
+            "url": "aaa",
+            "className": "all web"
+          },
+          "item2": {
+            "url": "aaa",
+            "className": "all style"
+          },
+          "item3": {
+            "url": "aaa",
+            "className": "all instagram"
+          },
+          "item4": {
+            "url": "aaa",
+            "className": "all"
+          },"item6": {
+            "url": "aaa",
+            "className": "all"
+          },
+          "item5": {
+            "url": "aaa",
+            "className": "all dog cat"
+          }
         }
       },
       "services": {
@@ -95,35 +114,36 @@
         "opacitytitile": "Услуги",
         "item": [
           {
-            "title": "Упаковка «Под ключ»",
-            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
-            "img": "",
-            "price": ""
+            "title": "Разработка логотипа.",
+            "content": "Мы готовы разработать для вас уникальный знак,\nкоторый будет отражать специфику и настроение\nвашего бизнеса.",
+            "img": "img/logo.jpg",
+            "price": "150$"
+          },
+          {
+            "title": "Разработка фирменного стиля.",
+            "content": "Мы уверены, что бизнес выглядит профессиональнее,\nкогда продуманы даже самые мелкие детали. Для старта мы\nпредлагаем оформление трех позиций на ваш выбор.",
+            "img": "img/style.jpg",
+            "price": "150$"
+          },
+          {
+            "title": "Оформление инстаграм.",
+            "content": "Мы подготовим по 6 уникальных шаблонов для постов\nи сториз, на которых можно будет редактировать\nинформацию..",
+            "img": "img/instagram.jpg",
+            "price": "100$"
+          },
+          {
+            "title": "Разработка сайта.",
+            "content": "Мы сделаем для вас красивый и понятный лендинг,\nкоторый будет собран на нашем собственном\nконструкторе.",
+            "img": "img/web.jpg",
+            "price": "200$"
           },
           {
             "title": "Упаковка «Под ключ»",
-            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
-            "img": "",
-            "price": ""
-          },
-          {
-            "title": "Упаковка «Под ключ»",
-            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
-            "img": "",
-            "price": ""
-          },
-          {
-            "title": "Упаковка «Под ключ»",
-            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
-            "img": "",
-            "price": ""
-          },
-          {
-            "title": "Упаковка «Под ключ»",
-            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь таким образом вы экотомите $100. В пакет входят все вышеперечисленные позиции.",
-            "img": "",
-            "price": ""
+            "content": "Заказывать упаковку «под ключ» гораздо выгоднее, ведь\nтаким образом вы экотомите $100. В пакет входят все\nвышеперечисленные позиции.",
+            "img": "img/key.jpg",
+            "price": "500$"
           }
+
         ],
         "feedback": {
           "title": "Готовы работать?",
@@ -139,20 +159,24 @@
         "title": "Контакты",
         "items": [
           {
-            "icon": "",
-            "content": ""
+            "icon": "fas fa-mobile-alt",
+            "content": "+375 29 664 95 96",
+            "href":  ""
           },
           {
-            "icon": "",
-            "content": ""
+            "icon": "fas fa-globe",
+            "content": "somethingspecial.by",
+            "href":  ""
           },
           {
-            "icon": "",
-            "content": ""
+            "icon": "fas fa-envelope",
+            "content": "smthspcl@gmail.com",
+            "href":  ""
           },
           {
-            "icon": "",
-            "content": ""
+            "icon": "fab fa-instagram",
+            "content": "smthspecial_studio",
+            "href":  ""
           }
         ]
       }

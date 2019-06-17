@@ -6,60 +6,87 @@ class Portfolio extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            portfolio: this.props.content.works
+            portfolio: this.props.content.works,
+            filter:  [],
+            add: false
         }
         this.addItems = this.addItems.bind(this);
         this.menuList = this.menuList.bind(this);
+        this.addFilter = this.addFilter.bind(this);
     }
-    menuList(itemArr) {
+    addFilter(){
+        if(this.state.add === false){
+            this.addItems('all');
+            return this.setState({add: true})
+        }
+        return false
+
+    }
+    menuList() {
+        let itemArr = this.state.filter.slice();
+
         return (
             <React.Fragment>
                 {itemArr.map((items) => (
 
-                        <div className="grid-container"> {items.map((item) => (
+                    <div className="grid-container"> {items.map((item) => (
 
-                                <div className="portfolio-item"> {item.name} </div>
-                            )
+                            <div className="portfolio-item"><img src={item.url} alt=""/> </div>
                         )
-                        } </div>)
                     )
+                    } </div>)
+                )
                 }
 
             </React.Fragment>)
 
     }
-    addItems() {
-        let size = 0;
+    addItems(className) {
+        let nameKey = className;
+        let mainArray = [];
         for (let key in this.state.portfolio) {
-            if (this.state.portfolio.hasOwnProperty(key)) size++;
+            let namesClass = this.state.portfolio[key].className.slice();
+            namesClass = namesClass.split(' ');
+            for(let i = 0; i<namesClass.length; i++){
+                if(namesClass[i] === nameKey){
+                    mainArray.push(this.state.portfolio[key])
+                }
+            }
         }
-        console.log(size);
         let arr = [];
         let allArr = [];
-        for(let i = 0; i<size; i++){
+        let lengthBlock;
+        if(document.documentElement.clientWidth > 767 && document.documentElement.clientWidth < 1280){
+            lengthBlock = 7;
+        }
+        else{
+            lengthBlock = 6;
+        }
+        for(let i = 0; i<mainArray.length; i++){
             let b = {};
-            b.name = i;
+            b.url = mainArray[i].url;
             arr.push(b);
-            if(arr.length === 6){
+            if(arr.length === lengthBlock){
                 allArr.push(arr);
                 arr = [];
             }
         }
         allArr.push(arr);
-        return this.menuList(allArr);
+        return this.setState({filter: allArr});
+
     }
     render() {
-        console.log(this.state.portfolio)
+        this.addFilter();
         return (
             <section className="portfolio-block">
                 <div className="container portfolio_container">
                     <div className="portfolio-header">
                         <div className="portfolio_category">
                             <ul className="portfolio_category-ul">
-                                <li className="portfolio_category-item active">111</li>
-                                <li className="portfolio_category-item">222</li>
-                                <li className="portfolio_category-item">333</li>
-                                <li className="portfolio_category-item">444</li>
+                                <li className="portfolio_category-item active"><button className="filter-button" onClick={() => this.addItems('logo')}>Логотипы</button></li>
+                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('style')}>Фирменный стиль</button></li>
+                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('instagram')}>Оформление инстаграм</button></li>
+                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('web')}>Разработка сайтов</button></li>
                             </ul>
                         </div>
                         <div className="portfolio_header_text">
@@ -69,7 +96,7 @@ class Portfolio extends React.Component {
                         </div>
                     </div>
                     <div className="portfolio-grid">
-                        {this.addItems()}
+                        {this.menuList()}
                     </div>
                 </div>
             </section>

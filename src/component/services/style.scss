@@ -38,6 +38,7 @@
 }
 .services-item{
   width: 385px;
+  margin-bottom: 60px;
 }
 .services-item-title{
   font-size: 14px;
@@ -57,6 +58,8 @@
 .services-item-text{
   font-size: 11px;
   margin-top: 25px;
+  min-height: 40px;
+  white-space: pre-wrap;
   margin-bottom: 30px;
 }
 .services-item{
@@ -67,6 +70,11 @@
   background-color: grey;
   width: 100%;
   height: 380px;
+}
+.serviced-item-block img{
+  width: 100%;
+  height: 100%;
+
 }
 .price{
   width: 85px;
@@ -106,4 +114,89 @@
   color: #787878;
   border: none;
   font-size: 11px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .opacity_title {
+    display: none;
+  }
+  .services_header_text {
+    width: 100%;
+    max-width: 380px;
+    padding-left: 45px;
+  }
+  .services_container {
+    padding: 0;
+  }
+  .number_block-services {
+    font-size: 16px;
+  }
+  .main_title-services {
+    margin: 30px 0;
+    font-size: 25px;
+  }
+  .subtitle-services {
+    font-size: 11px;
+  }
+  .services-item-title {
+    padding-left: 45px;
+  }
+  .services-item-text {
+    padding-right: 10px;
+    padding-left: 45px;
+    white-space: normal;
+  }
+  .services-item-title::after {
+    left: 45px;
+  }
+  .services-item {
+    height: auto;
+    width: 100%;
+    max-width: 385px;
+  }
+  .serviced-item-block {
+    height: auto;
+  }
+  .services-content {
+    justify-content: center;
+  }
+}
+  @media (min-width: 450px) and (max-width: 767px){
+    .services-item-text{
+      padding-left: 0;
+    }
+    .services-item-title{
+      padding-left: 0;
+    }
+    .services-item-title::after{
+      left: 0;
+    }
+    .services-item-button-feedback{
+      margin-left: 0;
+    }
+  }
+@media(min-width: 1024px) and (max-width: 1280px){
+  .opacity_title{
+    font-size: 87px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .opacity_title{
+    display: none;
+  }
+  .main_title-services{
+    font-size: 36px;
+    margin-top: 25px;
+  }
+  .services-item{
+    width: 45%;
+    height: auto;
+  }
+  .services-item-text{
+    white-space: normal;
+    min-height: 50px;
+  }
+  .serviced-item-block{
+    height: 300px;
+  }
 }

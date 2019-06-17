@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.scss";
+import Feedback from "../feedback";
 
 
 class MainBlock extends React.Component {
@@ -35,20 +36,21 @@ class MainBlock extends React.Component {
             <section className="main_block">
                 <div className="main_container container">
                     <header>
-                        <div className="logo"><img src="./img/logo_ss.svg" alt=""/></div>
+                        <div className="logo"><img src="./img/logo_ss.png" alt=""/></div>
                         <div className="navigation">
                                 <ul className="nav">
                                     {this.menuList()}
                                 </ul>
-                            <div className="search"><button className="search_button"><i className="fa fa-search"></i></button></div>
+                            <div className="search"><button className="search_button"><i className="fas fa-search"></i></button></div>
                         </div>
+                        <Feedback/>
                     </header>
                     <div className="main-content">
                         <span className="number_block_main">{this.props.content.number}</span>
-                        <h1 className="main_title">Студия дизайна и веб-разработки </h1>
-                        <h2 className="subtitle">Мы помогаем компаниям обрести целостный образ,  чтобы они достойно презентовали себя на рынке</h2>
-                        <div className="instagram"><a className="instagram_link" href="..."><i className="fa fa-instagram"></i>Подпишитесь на наш красивый <span className="instagram_bold">instagram</span></a></div>
-                        <div className="line"><span className="line_span">Упакуйте ваш бизнес вместе с нами </span></div>
+                        <h1 className="main_title">{this.props.content.title}</h1>
+                        <h2 className="subtitle">{this.props.content.subtitle}</h2>
+                        <div className="instagram"><a className="instagram_link" href="..."><i className={this.props.content.instagramIcon}></i><span>{this.props.content.instagramText}</span> <span className="instagram_bold">{this.props.content.instagramSpan}</span></a></div>
+                        <div className="line"><span className="line_span"> {this.props.content.line}</span></div>
                     </div>
                     <div className="main-block-navigation">
                         <div className="main-block-navigation_item">
