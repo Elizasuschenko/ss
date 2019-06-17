@@ -27,43 +27,43 @@
             "number": "01",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
-            "photo": "./img/subphoto.svg",
-            "subphoto": "img/photo.svg"
+            "photo": "./img/photo.jpg",
+            "subphoto": "img/subphoto.jpg"
           },
           {
             "number": "02",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
-            "photo": "./img/subphoto.svg",
-            "subphoto": "img/photo.svg"
+            "photo": "./img/photo.jpg",
+            "subphoto": "img/subphoto.jpg"
           },
           {
             "number": "03",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
-            "photo": "./img/subphoto.svg",
-            "subphoto": "img/photo.svg"
+            "photo": "./img/photo.jpg",
+            "subphoto": "img/subphoto.jpg"
           },
           {
             "number": "04",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
-            "photo": "./img/subphoto.svg",
-            "subphoto": "img/photo.svg"
+            "photo": "./img/photo.jpg",
+            "subphoto": "img/subphoto.jpg"
           },
           {
             "number": "05",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
-            "photo": "./img/subphoto.svg",
-            "subphoto": "img/photo.svg"
+            "photo": "./img/photo.jpg",
+            "subphoto": "img/subphoto.jpg"
           },
           {
             "number": "06",
             "name": "Каменок Яна",
             "profession": "Дизайнер и котик.",
-            "photo": "./img/subphoto.svg",
-            "subphoto": "img/photo.svg"
+            "photo": "./img/photo.jpg",
+            "subphoto": "img/subphoto.jpg"
           }
         ]
       },

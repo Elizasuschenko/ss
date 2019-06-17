@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdee38bf-7658-49c1-a84f-0c222abc81df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/logo_ss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.af3f55987454da6f6536dbe28c9106fe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.dea20e7d.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.dea20e7d.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.cb8246a1.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.cb8246a1.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.5bbd3e40.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.5bbd3e40.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/background-main.956bb54d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo_ss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/linksNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/linksNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/mainBlock/img/background-main.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/mainBlock/img/logo_ss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/mainBlock/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/mainBlock/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ourTeam/ourTeam.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ourTeam/ourTeam.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ourTeam/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ourTeam/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/portfolio/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/portfolio/portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/portfolio/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/portfolio/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services/img/photo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services/img/subphoto.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/services/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/services/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/photo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/subphoto.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/window/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="209">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -76,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/component/window/window.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -108,8 +75,22 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="301">
+              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!block;n#mainBlock#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+                <element signature="n#!!block;n#services#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+                <element signature="n#!!block;n#contact#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +141,9 @@
       <find>this.inf</find>
       <find>bac</find>
       <find>display: flex</find>
+      <find>burger_b</find>
+      <find>bur</find>
+      <find>subphoto.svg</find>
     </findStrings>
     <replaceStrings>
       <replace>rotate(90deg) translateX(48px)</replace>
@@ -181,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/component/ourTeam/ourTeam.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/data.json" />
         <option value="$PROJECT_DIR$/src/component/footer/style.scss" />
         <option value="$PROJECT_DIR$/src/component/mainBlock/style.scss" />
         <option value="$PROJECT_DIR$/src/component/ourTeam/style.scss" />
@@ -194,8 +177,9 @@
         <option value="$USER_HOME$/ohwat_version2/src/index.css" />
         <option value="$PROJECT_DIR$/src/component/footer/footer.js" />
         <option value="$PROJECT_DIR$/src/component/services/services.js" />
-        <option value="$PROJECT_DIR$/src/main.css" />
         <option value="$PROJECT_DIR$/src/component/window/style.scss" />
+        <option value="$PROJECT_DIR$/src/main.css" />
+        <option value="$PROJECT_DIR$/src/data.json" />
       </list>
     </option>
   </component>
@@ -327,26 +311,27 @@
       <workItem from="1560625968503" duration="599000" />
       <workItem from="1560629541446" duration="13233000" />
       <workItem from="1560698792975" duration="16039000" />
-      <workItem from="1560810708809" duration="1310000" />
+      <workItem from="1560810708809" duration="1943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179099000" />
+    <option name="totallyTimeSpent" value="179732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18175809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18175809" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4990086" weight="0.19373219" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4990086" visible="true" weight="0.19373219" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -355,7 +340,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -577,18 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!block;n#ourTeam#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-            <element signature="n#!!block;n#services#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-            <element signature="n#!!block;n#contact#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/footer/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -653,7 +625,7 @@
     <entry file="file://$PROJECT_DIR$/src/component/window/window.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -705,17 +677,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.css">
+    <entry file="file://$PROJECT_DIR$/src/component/window/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/window/style.scss">
+    <entry file="file://$PROJECT_DIR$/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="301">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#mainBlock#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+            <element signature="n#!!block;n#services#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+            <element signature="n#!!block;n#contact#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
