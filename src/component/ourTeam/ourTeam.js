@@ -27,7 +27,7 @@ class OurTeam extends React.Component {
             <Slider {...settings} ref={c => (this.slider = c)} className="our_team-slider">  {itemArr.map((item) => (
                 <div className="slid-window">
                     <div className="main-photo">
-                        <img src={item.subphoto} alt=""/>
+                        <img src={item.photo} alt=""/>
                         <button className="next_slider" onClick={this.next}>{this.props.content.buttonNext}</button>
                     </div>
                     <div className="subphoto">
@@ -35,7 +35,7 @@ class OurTeam extends React.Component {
                         <h3 className="name_person">{item.name}</h3>
                         <span className="line_slider"></span>
                         <div className="subphoto-block">
-                            <img src={item.photo} alt=""/>
+                            <img src={item.subphoto} alt=""/>
                         </div>
                     </div>
                     <div className="number_slider">
