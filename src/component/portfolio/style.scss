@@ -108,11 +108,14 @@
   }
   .grid-container{
     padding: 0;
-    grid-template-areas: 'item1' 'item2' 'item3''item4' 'item5' 'item6';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .grid-container > div{
     max-width: 350px;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 100%;
   }
   .subtitle-portfolio{

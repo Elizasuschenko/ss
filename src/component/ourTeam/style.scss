@@ -136,7 +136,9 @@
   -o-transform: translateY(9px);
   transform: translateY(9px);
 }
-
+.slick-slide img {
+  height: 100%;
+}
 @media (min-width: 320px) and (max-width: 767px){
   .our_team-block{
     height: auto;
@@ -265,7 +267,7 @@
     margin-top: 70px;
   }
   .slick-initialized .slick-slide{
-    width: 405px!important;
+    width: 425px!important;
   }
   .profecion{
     font-size: 11px;

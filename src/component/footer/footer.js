@@ -26,8 +26,8 @@ class Footer extends React.Component {
         return (
             <footer className="content_block" id="footer">
                 <div className="container footer_container">
-                    <h3 className="footer-number">05.</h3>
-                    <h2 className="footer-title">Контакты</h2>
+                    <h3 className="footer-number">{this.props.content.number}</h3>
+                    <h2 className="footer-title">{this.props.content.title}</h2>
                     <div className="contacts">
                         {this.items()}
                     </div>

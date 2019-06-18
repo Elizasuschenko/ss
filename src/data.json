@@ -2,6 +2,7 @@
   "data": {
     "blocks": {
       "mainBlock": {
+        "logoImg": "./img/logo_ss.png",
         "link": "#mainBlock",
         "class": "main_block",
         "name": "О нас",
@@ -12,7 +13,22 @@
         "instagramSpan": "instagram",
         "instagramLink": "instagram.com",
         "instagramIcon": "fab fa-instagram",
-        "line": "Упакуйте ваш бизнес вместе с нами "
+        "line": "Упакуйте ваш бизнес вместе с нами ",
+        "bottomNavTeam": {
+          "number": "02.",
+          "title": "Команда",
+          "content": "Кто мы и как мы выглядим."
+        },
+        "bottomNavPortfolio": {
+          "number": "03.",
+          "title": "Портфолио",
+          "content": "Проекты, которыми мы гордимся."
+        },
+        "bottomNavServices": {
+          "number": "04.",
+          "title": "Услуги",
+          "content": "То, что мы вам предлагаем."
+        }
       },
       "ourTeam": {
         "link": "#ourTeam",
@@ -74,6 +90,12 @@
         "number": "03.",
         "title": "Портфолио",
         "subtitle": ">Мы делали продукты для Mastercard, Wargaming, Alfa Bank и другич менее крупных компаниий.",
+        "worksCategory": {
+          "logo": "Логотипы",
+          "style": "Фирменный стиль",
+          "instagram": "Оформление инстаграм",
+          "web": "Разработка сайтов"
+        },
         "works": {
           "item": {
             "url": "aaa",

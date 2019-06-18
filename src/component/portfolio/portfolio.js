@@ -83,16 +83,16 @@ class Portfolio extends React.Component {
                     <div className="portfolio-header">
                         <div className="portfolio_category">
                             <ul className="portfolio_category-ul">
-                                <li className="portfolio_category-item active"><button className="filter-button" onClick={() => this.addItems('logo')}>Логотипы</button></li>
-                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('style')}>Фирменный стиль</button></li>
-                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('instagram')}>Оформление инстаграм</button></li>
-                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('web')}>Разработка сайтов</button></li>
+                                <li className="portfolio_category-item active"><button className="filter-button" onClick={() => this.addItems('logo')}>{this.props.content.worksCategory.logo}</button></li>
+                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('style')}>{this.props.content.worksCategory.style}</button></li>
+                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('instagram')}>{this.props.content.worksCategory.instagram}</button></li>
+                                <li className="portfolio_category-item"><button className="filter-button" onClick={() =>this.addItems('web')}>{this.props.content.worksCategory.web}</button></li>
                             </ul>
                         </div>
                         <div className="portfolio_header_text">
-                            <span className="number_block-portfolio">03.</span>
-                            <h1 className="main_title-portfolio">Портфолио</h1>
-                            <h2 className="subtitle-portfolio">Мы делали продукты для Mastercard, Wargaming, Alfa Bank и другич менее крупных компаниий.</h2>
+                            <span className="number_block-portfolio">{this.props.content.number}</span>
+                            <h1 className="main_title-portfolio">{this.props.content.title}</h1>
+                            <h2 className="subtitle-portfolio">{this.props.content.subtitle}</h2>
                         </div>
                     </div>
                     <div className="portfolio-grid">

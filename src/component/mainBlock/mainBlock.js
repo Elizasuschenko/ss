@@ -36,7 +36,7 @@ class MainBlock extends React.Component {
             <section className="main_block">
                 <div className="main_container container">
                     <header>
-                        <div className="logo"><img src="./img/logo_ss.png" alt=""/></div>
+                        <div className="logo"><img src={this.props.content.logoImg} alt=""/></div>
                         <div className="navigation">
                                 <ul className="nav">
                                     {this.menuList()}
@@ -55,23 +55,23 @@ class MainBlock extends React.Component {
                     <div className="main-block-navigation">
                         <div className="main-block-navigation_item">
                             <a href="#ourTeam">
-                                <h4 className="navigation-number">02.</h4>
-                                <h3 className="navigation-link-name">Команда</h3>
-                                <span className="navigation-text">Кто мы и как мы выглядим.</span>
+                                <h4 className="navigation-number">{this.props.content.bottomNavTeam.number}</h4>
+                                <h3 className="navigation-link-name">{this.props.content.bottomNavTeam.title}</h3>
+                                <span className="navigation-text">{this.props.content.bottomNavTeam.content}</span>
                             </a>
                         </div>
                         <div className="main-block-navigation_item">
                             <a href="#portfolio">
-                                <h4 className="navigation-number">03.</h4>
-                                <h3 className="navigation-link-name">Портфолио</h3>
-                                <span className="navigation-text">Проекты, которыми мы гордимся.</span>
+                                <h4 className="navigation-number">{this.props.content.bottomNavPortfolio.number}</h4>
+                                <h3 className="navigation-link-name">{this.props.content.bottomNavPortfolio.title}</h3>
+                                <span className="navigation-text">{this.props.content.bottomNavPortfolio.content}</span>
                             </a>
                         </div>
                         <div className="main-block-navigation_item main-block-navigation_item-white">
                             <a href="#services">
-                                <h4 className="navigation-number">04.</h4>
-                                <h3 className="navigation-link-name">Услуги</h3>
-                                <span className="navigation-text">То, что мы вам предлагаем.</span>
+                                <h4 className="navigation-number">{this.props.content.bottomNavServices.number}</h4>
+                                <h3 className="navigation-link-name">{this.props.content.bottomNavServices.title}</h3>
+                                <span className="navigation-text">{this.props.content.bottomNavServices.content}</span>
                             </a>
                         </div>
                     </div>

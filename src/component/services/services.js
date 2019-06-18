@@ -44,19 +44,19 @@ class Services extends React.Component {
                 <div className="services_container container">
                     <div className="services-header">
                         <div className="services_header_text">
-                            <span className="number_block-services">04.</span>
-                            <h1 className="main_title-services">Услуги</h1>
-                            <h2 className="subtitle-services">Мы делали продукты для Mastercard, Wargaming, Alfa Bank и другим менее крупных компаниий.</h2>
+                            <span className="number_block-services">{this.props.content.number}</span>
+                            <h1 className="main_title-services">{this.props.content.title}</h1>
+                            <h2 className="subtitle-services">{this.props.content.subtitle}</h2>
                         </div>
-                        <div className="opacity_title">Услуги</div>
+                        <div className="opacity_title">{this.props.content.title}</div>
                     </div>
                     <div className="services-content">
                         {this.item()}
                         <div className="services-item services-item-feedback">
-                            <h3 className="services-item-title services-item-title-feedback">Готовы работать?</h3>
-                            <p className="services-item-text services-item-text-feedback">Напишите нам свои контактные данные и наш менеджер свяжется с вами в ближайшее время.</p>
+                            <h3 className="services-item-title services-item-title-feedback">{this.props.content.feedback.title}</h3>
+                            <p className="services-item-text services-item-text-feedback">{this.props.content.feedback.subtitle}</p>
                             <button onClick={this.call} className="services-item-button-feedback">
-                                Связаться с нами  →
+                                {this.props.content.feedback.button}
                             </button>
                         </div>
                     </div>
