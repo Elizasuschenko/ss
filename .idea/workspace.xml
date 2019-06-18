@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdee38bf-7658-49c1-a84f-0c222abc81df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ourTeam/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ourTeam/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/portfolio/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/portfolio/portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/portfolio/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/portfolio/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/services/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
-    </list>
+    <list default="true" id="fdee38bf-7658-49c1-a84f-0c222abc81df" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -70,7 +61,7 @@
           <file leaf-file-name="portfolio.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/component/portfolio/portfolio.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="507">
+                <state relative-caret-position="402">
                   <caret line="94" column="91" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
                 </state>
               </provider>
@@ -79,8 +70,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/component/portfolio/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="427">
-                  <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+                <state relative-caret-position="283">
+                  <caret line="149" selection-start-line="149" selection-end-line="151" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -92,12 +83,11 @@
           <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-6">
-                  <caret line="175" column="17" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+                <state relative-caret-position="187">
+                  <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
                   <folding>
                     <element signature="n#!!block;n#mainBlock#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
                     <element signature="n#!!block;n#ourTeam#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-                    <element signature="n#!!block;n#portfolio#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -159,11 +149,11 @@
         <option value="$PROJECT_DIR$/src/main.css" />
         <option value="$PROJECT_DIR$/src/component/ourTeam/ourTeam.js" />
         <option value="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" />
-        <option value="$PROJECT_DIR$/src/data.json" />
         <option value="$PROJECT_DIR$/src/component/portfolio/portfolio.js" />
         <option value="$PROJECT_DIR$/src/component/services/services.js" />
         <option value="$PROJECT_DIR$/src/component/footer/footer.js" />
         <option value="$PROJECT_DIR$/src/component/ourTeam/style.scss" />
+        <option value="$PROJECT_DIR$/src/data.json" />
         <option value="$PROJECT_DIR$/src/component/portfolio/style.scss" />
       </list>
     </option>
@@ -300,15 +290,16 @@
       <workItem from="1560698792975" duration="16039000" />
       <workItem from="1560810708809" duration="2573000" />
       <workItem from="1560813420458" duration="400000" />
-      <workItem from="1560856546348" duration="3944000" />
+      <workItem from="1560856546348" duration="4281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184706000" />
+    <option name="totallyTimeSpent" value="185043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18175809" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -580,6 +571,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,19 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!block;n#ourTeam#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-            <element signature="n#!!block;n#portfolio#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-            <element signature="n#!!block;n#services#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-            <element signature="n#!!block;n#contact#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/footer/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -671,15 +652,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/portfolio/portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="402">
           <caret line="94" column="91" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#ourTeam#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+            <element signature="n#!!block;n#portfolio#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+            <element signature="n#!!block;n#services#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+            <element signature="n#!!block;n#contact#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/portfolio/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        <state relative-caret-position="283">
+          <caret line="149" selection-start-line="149" selection-end-line="151" selection-end-column="3" />
         </state>
       </provider>
     </entry>
