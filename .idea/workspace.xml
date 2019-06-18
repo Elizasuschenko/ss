@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ourTeam/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ourTeam/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/portfolio/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/portfolio/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/portfolio/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/portfolio/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/services/services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
     </list>
@@ -52,16 +53,34 @@
             <entry file="file://$PROJECT_DIR$/src/component/footer/footer.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="378">
-                  <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+                  <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/component/ourTeam/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="401">
+                  <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="portfolio.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/component/portfolio/portfolio.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="507">
+                  <caret line="94" column="91" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/component/ourTeam/style.scss">
+            <entry file="file://$PROJECT_DIR$/src/component/portfolio/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="401">
-                  <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
+                <state relative-caret-position="427">
+                  <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -73,8 +92,8 @@
           <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-142">
-                  <caret line="175" column="17" lean-forward="true" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+                <state relative-caret-position="-6">
+                  <caret line="175" column="17" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
                   <folding>
                     <element signature="n#!!block;n#mainBlock#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
                     <element signature="n#!!block;n#ourTeam#0;n#!!block;n#blocks#0;n#!!block;n#data#0;n#!!top" />
@@ -139,13 +158,13 @@
         <option value="$PROJECT_DIR$/src/component/window/style.scss" />
         <option value="$PROJECT_DIR$/src/main.css" />
         <option value="$PROJECT_DIR$/src/component/ourTeam/ourTeam.js" />
-        <option value="$PROJECT_DIR$/src/component/portfolio/style.scss" />
         <option value="$PROJECT_DIR$/src/component/mainBlock/mainBlock.js" />
         <option value="$PROJECT_DIR$/src/data.json" />
         <option value="$PROJECT_DIR$/src/component/portfolio/portfolio.js" />
         <option value="$PROJECT_DIR$/src/component/services/services.js" />
         <option value="$PROJECT_DIR$/src/component/footer/footer.js" />
         <option value="$PROJECT_DIR$/src/component/ourTeam/style.scss" />
+        <option value="$PROJECT_DIR$/src/component/portfolio/style.scss" />
       </list>
     </option>
   </component>
@@ -281,18 +300,17 @@
       <workItem from="1560698792975" duration="16039000" />
       <workItem from="1560810708809" duration="2573000" />
       <workItem from="1560813420458" duration="400000" />
-      <workItem from="1560856546348" duration="3394000" />
+      <workItem from="1560856546348" duration="3944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184156000" />
+    <option name="totallyTimeSpent" value="184706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18175809" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18175809" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.32905984" />
@@ -300,7 +318,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4990086" visible="true" weight="0.19373219" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4990086" visible="true" weight="0.19373219" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -579,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/portfolio/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/mainBlock/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -624,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/portfolio/portfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="94" column="91" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -654,7 +658,7 @@
     <entry file="file://$PROJECT_DIR$/src/component/footer/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="29" column="69" lean-forward="true" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -662,6 +666,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/portfolio/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="94" column="91" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/portfolio/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
         </state>
       </provider>
     </entry>
